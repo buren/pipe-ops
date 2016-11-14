@@ -21,7 +21,7 @@ new StringPipe('Hi %name%! Asdf %other_name% and this is').
   inject(function(value) { return '(:) ' + value }).
   surround('<header>', '</header>').
   value()
-// "header>(:) <h1>Hi Jacob! Asdf Buren and..Read more..</h1></header>"
+// "<header>(:) <h1>Hi Jacob! Asdf Buren and..Read more..</h1></header>"
 ```
 
 You can also move between different types:
